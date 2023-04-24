@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Project_SCAN
+<h1>Требования к вёрстке</h1> 
+<p>Вёрстка должна соответствовать макету. Добиваться Pixel Perfect соответствия не обязательно, но основные моменты должны быть соблюдены:</p>
+<ul>
+<li>наличие всех элементов интерфейса</li>
+<li>цветовая гамма</li>
+<li>шрифты</li>
+<li>размеры</li>
+<li>отступы</li>
+</ul>
+<p>Приложение должно корректно отображаться и работать на мобильных устройствах. Дизайн для мобильной версии вы найдёте в макете.
+Соблюдайте семантическую вёрстку. На каждой странице должны присутствовать разделы &lt;header&gt;, &lt;main&gt; и &lt;footer&gt;, а также заголовок &lt;h1&gt;. Кнопки должны быть реализованы элементом &lt;button&gt;, выпадающий список — элементом &lt;select&gt; и так далее.<br><br>
+Если какой-либо элемент доступен для взаимодействия (ссылка, кнопка), при наведении курсора должен появляться cursor: pointer.<br>
+Внешний вид самого элемента тоже должен меняться при наведении курсора. Пример: нижнее подчёркивание текста у ссылки, другой цвет фона у кнопки.<br>
+Используйте любой вариант подключения стилей на ваше усмотрение:</p>
+<ul>
+<li>общий файл стилей проекта</li>
+<li>CSS-модули</li>
+<li>специальные React-библиотеки для стилизации компонентов (например, Styled Components)</li>
+</ul><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Использовать селекторы по тегу и ID для задания стилей не рекомендуется, старайтесь отдавать предпочтение классам.<br>
+Лучше всего экспортировать картинки из Figma в формате SVG, чтобы качество изображений было стабильным на разных разрешениях.</p><br><br>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Требования к коду</h1>
+<ul>
+<li>Проект должен был выполнен на React</li>
+<li>Интерфейс должен быть поделён на компоненты. Перед началом работы обдумайте, какие компоненты вы будете использовать. Деление должно быть логичным и оправданным</li>
+<li>Проект будет работать со множеством данных. Рекомендуем использовать более продвинутый инструмент хранения и изменения данных, чем обычный state. Например, useReducer, React Context или Redux</li>
+</ul><br><br>
+<h2>При написании кода старайтесь следовать принципам:</h2>
+<ul>
+<li>KISS (Keep It Short and Simple — не усложняй)</li>
+<li>DRY (Don’t Repeat Yourself — не повторяйся)</li>
+<li>Вы не ограничены в использовании любых инструментов и дополнительных библиотек (например, для реализации карусели). Но старайтесь следить за тем, чтобы их применение было оправдано и не усложняло код без необходимости</li></ul>
+<h2>Прочие требования</h2>
+<ul>
+<li>Пишите код аккуратно, с соблюдением форматирования и отступов</li>
+<li>Осмысленно называйте компоненты, переменные и функции</li>
+<li>Используйте современный синтаксис: функциональные React-компоненты и хуки, стрелочные функции, декомпозицию и так далее</li>
+<li>При размещении проекта на GitHub не забудьте добавить папку node_modules в файл .gitignore, чтобы она не попала в ваш репозиторий. О том, как настроить .gitignore и почему папки node_modules не должно быть в репозитории, читайте в статье «Что такое файл .gitignore и как его настроить? — CloudSavvy ИТ» на Cpab.</li>
+</ul>
