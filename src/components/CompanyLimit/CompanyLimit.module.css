@@ -1,0 +1,89 @@
+.general {
+    max-width: 175px;
+    width: 100%;
+    height: 63px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+.lists {
+    padding: 14px 8px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.usedList,
+.limitList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.usedItem:first-of-type,
+.limitItem:first-of-type {
+    font-size: 10px;
+    line-height: 12px;
+    opacity: 0.4;
+    color: #000000;
+}
+
+.usedItem:last-of-type,
+.limitItem:last-of-type {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.limitItem:last-of-type {
+    margin-left: 18px;
+}
+
+.limitItem:last-of-type {
+    color: #8AC540;
+}
+
+.loaderContainer {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 380px) {
+    .general {
+        max-width: 132px;
+        width: 100%;
+        height: 75px;
+        margin-left: 15px;
+    }
+
+    .lists {
+        padding: 5px 10px;
+    }
+
+    .usedList,
+    .limitList {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .usedList {
+        margin-bottom: 10px;
+    }
+
+    .usedItem:first-of-type,
+    .limitItem:first-of-type {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .limitItem:last-of-type {
+        margin-left: 0px;
+    }
+
+    .loaderContainer {
+        margin-top: 10px;
+    }
+
+}

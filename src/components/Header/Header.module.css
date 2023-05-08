@@ -1,0 +1,15 @@
+.general {
+    max-width: 1320px;
+    min-height: 93px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .general {
+        padding: 0 10px;
+    }
+}

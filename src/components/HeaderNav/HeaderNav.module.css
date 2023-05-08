@@ -1,0 +1,20 @@
+.navList {
+  display: flex;
+}
+
+.navItem {
+  margin-right: 49px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 765px) {
+  .general {
+    display: none;
+  }
+}

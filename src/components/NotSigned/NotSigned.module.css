@@ -1,0 +1,33 @@
+.general {
+    display: flex;
+}
+
+.signUp {
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.4;
+}
+
+.line {
+    width: 2px;
+    height: 26px;
+    margin: 0px 20px;
+    background-image: url("./Rectangle\ 7.svg");
+    background-repeat: repeat;
+}
+
+.signIn {
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #7CE3E1;
+}
+
+@media screen and (max-width: 765px) {
+    .general {
+        display: none;
+    }
+}

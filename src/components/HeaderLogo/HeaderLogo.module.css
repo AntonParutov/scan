@@ -1,0 +1,9 @@
+.general {
+    width: 141px;
+    height: 71px;
+    margin-top: -20px;
+    display: flex;
+    flex-shrink: 0;
+    background-image: url("./SGN_09_24_2022_1663968217400\ 1.svg");
+    background-repeat: no-repeat;
+}

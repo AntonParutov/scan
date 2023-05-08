@@ -1,0 +1,13 @@
+.general {
+    max-width: 813px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 765px) {
+    .general {
+        max-width: 175px;
+    }
+}
