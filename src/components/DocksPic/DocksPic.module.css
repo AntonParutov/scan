@@ -1,0 +1,40 @@
+.general {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.document {
+    width: 91px;
+    height: 111px;
+    background-image: url("./Document.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.folders {
+    width: 141px;
+    height: 69px;
+    background-image: url("./Folders.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 630px) {
+    .general {
+        align-self: center;
+    }
+
+    .document {
+        width: 59px;
+        height: 75px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .folders {
+        display: none;
+    }
+}

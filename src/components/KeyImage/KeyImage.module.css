@@ -1,0 +1,17 @@
+.general {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    width: 322px;
+    height: 342px;
+    background-image: url("./Characters.png");
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 975px) {
+    .general {
+        position: sticky;
+        display: flex;
+        align-self: center;
+    }
+}

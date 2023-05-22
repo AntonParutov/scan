@@ -1,0 +1,25 @@
+.general {
+    max-width: 380px;
+    width: 100%;
+    min-height: 225px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.general img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 12px;
+}
+
+.general p {
+    max-width: 350px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+}

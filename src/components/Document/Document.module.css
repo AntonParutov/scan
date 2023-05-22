@@ -1,0 +1,117 @@
+.general {
+    width: 48.5%;
+    margin-bottom: 38px;
+    padding: 19px 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    margin-bottom: 24px;
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+}
+
+.date {
+    margin-right: 24px;
+}
+
+.source {
+    text-decoration: underline;
+    word-break:break-all;
+}
+
+.header {
+    max-width: 530px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
+
+.kind {
+    margin-bottom: 14px;
+    padding: 4px 14px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    border-radius: 5px;
+    background-color: #FFB64F;
+}
+
+.imageContainer {
+    max-width: 100%;
+    max-height: 158px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-height: 158px;
+    height: auto;
+}
+
+.text {
+    max-height: 250px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.text p {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    opacity: 0.5;
+}
+
+.text p:last-child {
+    margin-bottom: 0px;
+}
+
+.bottomSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottomSection a{
+    padding: 14px 33px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    background: #7CE3E1;
+}
+
+.bottomSection span{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #949494;
+}
+
+@media screen and (max-width: 880px) {
+    .general {
+        width: 100%;
+        margin-bottom: 38px;
+        padding: 19px 30px 35px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bottomSection a{
+        padding: 14px 19px;
+    }
+}

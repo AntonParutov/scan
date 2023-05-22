@@ -1,0 +1,193 @@
+.general {
+  max-width: 872px;
+  width: 100%;
+  padding: 30px 45px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.textInput,
+.select {
+  width: 242px;
+  height: 43px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 13px 22px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.select {
+  background-color: #ffffff;
+}
+
+.select:hover {
+  cursor: pointer;
+}
+
+.textInput::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  opacity: 0.4;
+  color: #949494;
+}
+
+.errorMessage {
+  height: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff5959;
+}
+
+.noErrorSelect {
+  margin-bottom: 30px;
+}
+
+.dates {
+  width: 372px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputLabel {
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  opacity: 0.4;
+}
+
+.activeInputLabel {
+  opacity: 1;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  appearance: none;
+  border-radius: 10%;
+  border: 1px solid #000000;
+}
+
+.checkbox:checked:after {
+  content: "\2713";
+  color: green;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitInput {
+  width: 305px;
+  height: 59px;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background: #5970ff;
+}
+
+.submitInput:hover {
+  opacity: 0.9;
+}
+
+.submitInput:disabled {
+  opacity: 0.7;
+}
+
+.buttonSection span {
+  margin-right: 45px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: #949494;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 1150px) {
+  .general {
+    max-width: 500px;
+    margin-bottom: 37px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dates {
+    min-height: 130px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+
+  .submitInput,
+  .buttonSection span {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .general {
+    align-items: center;
+    padding: 30px 10px;
+  }
+
+  .submitInput,
+  .buttonSection span {
+    align-self: center;
+  }
+
+  .checksSection {
+    display: none;
+  }
+}

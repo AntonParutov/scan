@@ -1,0 +1,61 @@
+.general {
+    max-width: 1320px;
+    width: 100%;
+    margin: 50px auto 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loaderContainer {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.noResults {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noResults p {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.noResults p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.noResults p:last-of-type {
+    margin-bottom: 20px;
+}
+
+.noResults button {
+    height: 59px;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    background: #5970FF;
+}
+
+.noResults button:hover {
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .general {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.general {
+    width: 100%;
+    height: 581px;
+    margin-bottom: 85px;
+    display: flex;
+    background-image: url("./Group14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 610px) {
+    .general {
+        height: 390px;
+        margin-bottom: 65px;
+    }
+}

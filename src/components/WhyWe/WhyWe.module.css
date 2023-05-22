@@ -1,0 +1,40 @@
+.general h2 {
+    margin-bottom: 70px;
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.cardContainer {
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nextButton,
+.previosButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+
+.nextButton {
+    background-image: url("./next.png");
+}
+
+.previosButton {
+    background-image: url("./previos.png");
+}
+
+@media screen and (max-width: 600px) {
+    .general h2 {
+        margin-bottom: 32px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+}

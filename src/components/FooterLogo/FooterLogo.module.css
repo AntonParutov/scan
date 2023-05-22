@@ -1,0 +1,15 @@
+.general {
+    width: 141px;
+    height: 115px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-shrink: 0;
+    background-image: url("./eqw1.png");
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1300px) {
+    .general {
+        margin-left: 10px;
+    }
+}

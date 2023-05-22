@@ -1,0 +1,22 @@
+.general {
+    max-width: 760px;
+    width: 100%;
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 975px) {
+    .general {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .general {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

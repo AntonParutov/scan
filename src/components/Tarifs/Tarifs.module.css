@@ -1,0 +1,212 @@
+.general {
+    width: 100%;
+    margin-bottom: 118px;
+    display: flex;
+    flex-direction: column;
+}
+
+.general h2 {
+    margin-bottom: 70px;
+    font-family: 'Ferry';
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.tariffs {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.beginner,
+.pro,
+.business {
+    max-width: 415px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.discription {
+    position: relative;
+}
+
+.beginner .discription,
+.pro .discription,
+.business .discription {
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px 0px 34px 30px;
+}
+
+.beginner .discription {
+    background-color: #FFB64F;
+}
+
+.pro .discription {
+    background-color: #7CE3E1;
+}
+
+.business .discription {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.beginner .discription h3,
+.pro .discription h3,
+.business .discription h3 {
+    margin-bottom: 8px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.beginner .discription p,
+.pro .discription p,
+.business .discription p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.lamp,
+.target,
+.notebook {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lamp {
+    background-image: url("./Group1171274215.png");
+}
+
+.target {
+    background-image: url("./Group1171274216.png");
+}
+
+.notebook {
+    background-image: url("./Group1171274214.png");
+}
+
+.tariffNow {
+    padding: 3px 13px;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 10px;
+    background-color: #3BA5E0;
+}
+
+.detailedDiscription {
+    padding: 33px 12px 55px 30px;
+}
+
+.price {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.priceBusiness {
+    margin-bottom: 91px;
+}
+
+.priceNow {
+    margin-right: 19px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.detailedDiscription p {
+    margin-bottom: 59px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pricePrevios {
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.detailedDiscription h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.consList {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: decimal url("./964.png");
+}
+
+.consItem {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.privateButton,
+.detailButton {
+    max-width: 355px;
+    width: 85%;
+    min-height: 59px;
+    margin-left: 33px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.privateButton {
+    background-color: #D2D2D2;
+}
+
+.detailButton {
+    color: #FFFFFF;
+    background-color: #5970FF;
+}
+
+.currentTariff {
+    position: relative;
+}
+
+.tariffNow {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .general {
+        margin-bottom: 43px;
+    }
+
+    .general h2 {
+        margin-bottom: 37px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .tariffs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beginner, 
+    .pro {
+        margin-bottom: 43px;
+    }
+
+    .detailedDiscription p {
+        margin-bottom: 36px;
+    }
+}

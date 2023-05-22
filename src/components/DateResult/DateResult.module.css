@@ -1,0 +1,39 @@
+.general {
+    width: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    border-right: 2px solid #949494;
+}
+
+.general span {
+    margin-bottom: 26px;
+}
+
+.general span:last-child {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 765px) {
+    .general {
+        width: 260px;
+        flex-direction: row;
+        justify-content: space-between;
+        border-right: none;
+    }
+
+    .general span {
+        margin-bottom: 0px;
+    }
+
+    .general span:first-child {
+        margin-right: -10px;
+    }
+
+    .general span:last-child {
+        margin-right: 20px;
+    }
+}

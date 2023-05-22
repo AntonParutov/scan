@@ -1,0 +1,105 @@
+.general {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title h1 {
+    margin-bottom: 20px;
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.title p {
+    max-width: 540px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.title button {
+    padding: 15px 63px;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background-color: #5970FF;
+}
+
+.title button:hover {
+    opacity: 0.9;
+}
+
+.image {
+    max-width: 575px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url("./23981.png");
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1140px) {
+    .general {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        align-items: center;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+
+    .title p {
+        margin-bottom: 32px;
+    }
+
+    .title button {
+        margin-bottom: 40px;
+        padding: 18px 74px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        align-items: flex-start;
+    }
+
+    .title h1 {
+        text-align: left;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .title p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .title button {
+        align-self: center;
+    }
+
+    .image {
+        margin-bottom: 30px;
+        height: 347px;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+}

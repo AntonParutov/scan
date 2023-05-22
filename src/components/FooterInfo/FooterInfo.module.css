@@ -1,0 +1,28 @@
+.general {
+    min-height: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1300px) {
+    .general {
+        padding-right: 10px;
+    }
+}
